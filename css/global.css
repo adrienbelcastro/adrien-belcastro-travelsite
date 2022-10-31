@@ -18,10 +18,6 @@ header h3{
 
 }
 
-h3 {
-    color: #335576;
-}
-
 
 button {
     width: 175px;
@@ -43,10 +39,6 @@ footer {
 
 }
 
-footer h3 {
-
-}
-
 footer ul {
     list-style: none;
 }
@@ -60,14 +52,14 @@ footer img {
     margin: 0.75rem;
 }
 
-.nav__links {
+.navbar {
     position: relative;
     right: 8rem;
     list-style: none;
     color: black;
 }
 
-.nav__links li{
+.navbar__links {
     display: inline-block;
 
     text-decoration: none;
@@ -112,7 +104,7 @@ footer img {
     left: 700px;
 }
 
-.container__card {
+.container__recommendation {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
@@ -121,14 +113,7 @@ footer img {
     position: relative; 
 }
 
-.container__card--2 {
-    justify-content: center;
-    gap: 5rem;
-
-    
-}
-
-.card_component {
+.recommendation__card {
     width: 300px;
     height: 450px;
     margin-bottom: 2rem;
@@ -140,7 +125,19 @@ footer img {
 
 }
 
-.card_component--title1 {
+.recommendation__image--hawaii {
+    background-image: url("../assets/images/TravelSite-Package/Assets/Images/hawaii.jpg");
+}
+
+.recommendation__image--greece {
+    background-image: url("../assets/images/TravelSite-Package/Assets/Images/greece.jpg");
+}
+
+.recommendation__image--iceland {
+    background-image: url("../assets/images/TravelSite-Package/Assets/Images/iceland.jpg");
+}
+
+.recommendation__card--title1 {
     position: absolute;
     top: 370px;
     left: 320px;
@@ -150,18 +147,18 @@ footer img {
     color: white;
 }
 
-.card_component--title2 {
+.recommendation__card--title2 {
 
-        position: absolute;
-        top: 370px;
-        left: 660px;
-    
-        font-size: 25px;
-        font-weight: 550;
-        color: white;
+    position: absolute;
+    top: 370px;
+    left: 660px;
+
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
 }
 
-.card_component--title3 {
+.recommendation__card--title3 {
 
     position: absolute;
     top: 370px;
@@ -171,22 +168,53 @@ footer img {
     font-weight: 550;
     color: white;
 }
-.card_component--hawaii {
-    background-image: url("../assets/images/TravelSite-Package/Assets/Images/hawaii.jpg");
+
+.contact__container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    
 }
 
-.card_component--greece {
-    background-image: url("../assets/images/TravelSite-Package/Assets/Images/greece.jpg");
-}
-
-.card_component--iceland {
-    background-image: url("../assets/images/TravelSite-Package/Assets/Images/iceland.jpg");
-}
-
-.hours {
+.contact__info {
     display: inline-block;
-    margin: 0 20px;
+}
 
-    list-style: none;
+.contact__hours {
+    display: flex;
+    align-items: end;
+    gap: 2.5rem;
+    padding: 0 50px;
+}
+
+.contact__content {
+    color: #335576;
+}
+
+.contact__content--title {
+    color: #DB7A4E;
+    font-size: 12px;
+}
+
+.contact__title {
+    color: #335576;
+    font-size: 1.5rem;
+}
+
+.contact__title--social {
+    position: relative;
+    right: 55px;
 }
  
+.contact__social {
+    position: relative;
+    left: 25px;
+}
+
+.contact__image {
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+}

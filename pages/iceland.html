@@ -4,45 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/destination.css">
     <title>Iceland Itinerary</title>
 </head>
 <body>
     <header>
+        <h3>Travel Site</h3>
         <nav>
-            <h3>Travel Site</h3>
-            <ul>
-                <li><a href="./index.html" alt="Homepage">Home</a></li>
-                <li><a href="./pages/hawaii.html" alt="Hawaii Page">Hawaii</a></li>
-                <li><a href="./pages/iceland.html" alt="Iceland Page">Iceland</a></li>
-                <li><a href="./pages/greece.html" alt="Greece Page">Greece</a></li>
+            <ul class="navbar">
+                <li class="navbar__links"><a href="../index.html" alt="Homepage">Home</a></li>
+                <li class="navbar__links"><a href="./hawaii.html" alt="Hawaii Page">Hawaii</a></li>
+                <li class="navbar__links"><a href="./iceland.html" alt="Iceland Page">Iceland</a></li>
+                <li class="navbar__links"><a href="./greece.html" alt="Greece Page">Greece</a></li>
             </ul>
         </nav>
     </header>
-    <footer>
-        <div>
-            <h3>Contact</h3>
-            <ul>
-                <li><h4>Email</h4></li>
-                <li><p>info@travelsite.com</p></li>
-            </ul>
-        </div>
-            <h3>Hours</h3>
+    <section> 
+        <div class="itinerary__background itinerary__background--iceland">
+            <h1 class="itinerary__title">Iceland</h1>
+        <div class="container__recommendation">
+            <article class="itinerary_card">
+                <h3 class="itinerary__card--friday">Friday</h3>
                 <ul>
-                    <li><h4>Monday-Friday</h4></li>
-                    <li><p>9:00 AM - 5:00 PM</p></li>
-                    <li><h4>Saturday</h4></li>
-                    <li><p>10:00 AM - 4:00 PM</p></li>
-                    <li><h4>Sunday</h4></li>
-                    <li><p>Closed</p></li>
-                </ul>     
+                    <li class="itinerary__card--content">Breakfast</li>
+                    <li class="itinerary__card--content">Lunch</li>
+                    <li class="itinerary__card--content">Dinner</li>
+                    <li class="itinerary__card--content">Hiking</li>
+                </ul>
+            </article>
+            <article class="itinerary_card">
+                <h3 class="itinerary__card--saturday">Saturday</h3>
+                <ul>
+                    <li class="itinerary__card--content"">Breakfast</li>
+                    <li class="itinerary__card--content"">Lunch</li>
+                    <li class="itinerary__card--content"">Dinner</li>
+                    <li class="itinerary__card--content"">Hiking</li>
+                </ul>
+            </article>
+            <article class="itinerary_card">
+                <h3 class="itinerary__card--sunday">Sunday</h3>
+                <ul>
+                    <li class="itinerary__card--content">Breakfast</li>
+                    <li class="itinerary__card--content">Lunch</li>
+                    <li class="itinerary__card--content">Dinner</li>
+                    <li class="itinerary__card--content">Hiking</li>
+                </ul>
+            </article>
         </div>
-        <div>
-            <h3>Social</h3>
-            <img src="./assets/images/TravelSite-Package/2.0 - Assets/Icons/icon-instagram.png" alt="Instagram">
-            <img src="./assets/images/TravelSite-Package/2.0 - Assets/Icons/icon-facebook.png" alt="Facebook">
-            <img src="./assets/images/TravelSite-Package/2.0 - Assets/Icons/icon-twitter.png" alt="Twitter">
         </div>
-    </footer>    
+    </section>
+    <footer class="contact">
+        <div class="contact__container">
+            <div class="contact__info">
+                    <ul>
+                        <h3 class="contact__title">Contact</h3>
+                        <li><p class="contact__content--title">Email</p></li>
+                        <li><p class="contact__content">info@travelsite.com</p></li>
+                    </ul>
+                </div>
+                <ul class="contact__hours">
+                    <div cl>
+                        <h3 class="contact__title">Hours</h3>
+                        <li><p class="contact__content--title">Monday-Friday</p></li>
+                        <li><p class="contact__content">9:00 AM - 5:00 PM</p></li>
+                    </div>
+                    <div>
+                        <li><p class="contact__content--title">Saturday</p></li>
+                        <li><p class="contact__content">10:00 AM - 4:00 PM</p></li>
+                    </div>
+                    <div>
+                        <li><p class="contact__content--title">Sunday</p></li>
+                        <li><p class="contact__content">Closed</p></li>
+                    </div>
+                </ul>   
+        
+            <article class="contact__social">
+                <ul>
+                    <h3 class="contact__title contact__title--social">Social</h3>
+                    <img class="contact__image" src="../assets/images/TravelSite-Package/Assets/Icons/icon-instagram.png" alt= "Instagram">
+                    <img class="contact__image" src="../assets/images/TravelSite-Package/Assets/Icons/icon-facebook.png" alt="Facebook">
+                    <img class="contact__image" src="../assets/images/TravelSite-Package/Assets/Icons/icon-twitter.png" alt="Twitter">
+                </ul>
+            </article>
+        </div>
+    </footer>
 </body>
 </html>
