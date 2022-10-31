@@ -1,0 +1,45 @@
+h1 {
+
+}
+.itinerary {
+    background-image: url("../assets/images/TravelSite-Package/Assets/Images/hawaii.jpg");
+}
+
+.card_component--friday {
+    text-align: center;
+    border-bottom: 2px solid black;
+
+    color: black;
+}
+
+
+.card_component--saturday {
+    text-align: center;
+    border-bottom: solid black 2px;
+
+    color: black;
+}
+
+
+.card_component--sunday {
+    text-align: center;
+
+    border-bottom: solid black 2px;
+
+    color: black;
+}
+
+
+
+
+.card_component--content {
+    position: relative;
+    right: 20px;
+    text-align: center;
+
+    list-style: none;
+
+    background-color: #FEFAF5;
+    margin: 30px 5px;
+    padding: 15px 60px;
+}
