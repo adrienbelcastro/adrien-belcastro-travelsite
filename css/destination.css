@@ -1,8 +1,9 @@
-h1 {
 
-}
 .itinerary {
+
     background-image: url("../assets/images/TravelSite-Package/Assets/Images/hawaii.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .card_component--friday {
@@ -23,7 +24,6 @@ h1 {
 
 .card_component--sunday {
     text-align: center;
-
     border-bottom: solid black 2px;
 
     color: black;
