@@ -6,9 +6,31 @@
     background-position: center;
 }
 
+.itinerary__card {
+    margin-top: 0;
+
+    font-size: 5rem;
+    color: white;
+}
+
+.card_component--itinerary{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 7rem;
+    border-radius: 5px;
+
+    background-color: white;
+    background-size: cover;
+
+}
+
 .card_component--friday {
     text-align: center;
     border-bottom: 2px solid black;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
 
     color: black;
 }
@@ -18,6 +40,9 @@
     text-align: center;
     border-bottom: solid black 2px;
 
+    margin-left: 20px;
+    margin-right: 20px;
+
     color: black;
 }
 
@@ -25,6 +50,9 @@
 .card_component--sunday {
     text-align: center;
     border-bottom: solid black 2px;
+
+    margin-left: 20px;
+    margin-right: 20px;
 
     color: black;
 }
