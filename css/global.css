@@ -64,61 +64,6 @@ footer img {
     padding-bottom: 5px;
 }
 
-
-.hero {
-    width: 1270px;
-    height: 500px;
-
-    position: relative;
-
-    text-align: left;
-    background-color: #FEFAF5;
-}
-
-.hero__text {
-    width: 300px;
-    height: 300px;
-
-    position: absolute;
-}
-
-.hero__content {
-    width: 600px;
-
-    position: absolute;
-    top: 15rem;
-    left: 40px; 
-    
-    text-align: left;
-
-    color: #335576;
-    font-weight: 200;
-}
-
-.hero__image {
-    width: 475px;
-    height: 400px;
-
-    position: absolute;
-    top: 15px;
-    left: 700px;
-}
-
-.hero__button {
-    width: 175px;
-    height: 40px;
-
-    position: absolute;
-    top: 20rem;
-    left: 2.5rem;
-
-    border: 0;
-    border-radius: 25px;
-
-    background-color: #DB7A4E;
-    color: white; 
-}
-
 .container__recommendation {
     display: flex;
     justify-content: center;
