@@ -12,28 +12,6 @@ header {
     background-color: #ffffff;
 }
 
-header h3{
-    position: relative;
-    left: 75px;
-
-}
-
-
-button {
-    width: 175px;
-    height: 40px;
-
-    position: absolute;
-    top: 20rem;
-    left: 2.5rem;
-
-    border: 0;
-    border-radius: 25px;
-
-    background-color: #DB7A4E;
-    color: white; 
-}
-
 footer {
     background-color: #FEFAF5;
 
@@ -44,8 +22,6 @@ footer ul {
 }
 
 footer img {
-    width: 19px;
-    height: 21px;
     
     position: relative;
     right: 4rem;
@@ -53,19 +29,41 @@ footer img {
 }
 
 .navbar {
+    display: flex;
+    gap: 1rem;
+
     position: relative;
     right: 8rem;
     list-style: none;
     color: black;
 }
 
+.logo__link{
+    position: relative;
+    left: 75px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #335576;
+    text-decoration: none;
+
+}
+
 .navbar__links {
     display: inline-block;
 
-    text-decoration: none;
-    color: black;
-    
 }
+
+.navbar__styledlinks {
+    text-decoration: none;
+    color: black;  
+}
+
+.navbar__links.active {
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 5px;
+}
+
 
 .hero {
     width: 1270px;
@@ -84,24 +82,41 @@ footer img {
     position: absolute;
 }
 
-.hero__text p {
+.hero__content {
     width: 600px;
 
     position: absolute;
     top: 15rem;
-    left: 40px;   
+    left: 40px; 
+    
+    text-align: left;
 
     color: #335576;
     font-weight: 200;
 }
 
-.hero img {
+.hero__image {
     width: 475px;
     height: 400px;
 
     position: absolute;
     top: 15px;
     left: 700px;
+}
+
+.hero__button {
+    width: 175px;
+    height: 40px;
+
+    position: absolute;
+    top: 20rem;
+    left: 2.5rem;
+
+    border: 0;
+    border-radius: 25px;
+
+    background-color: #DB7A4E;
+    color: white; 
 }
 
 .container__recommendation {
@@ -122,6 +137,17 @@ footer img {
 
     background-color: white;
     background-size: cover;
+}
+
+.recommendation__title {
+    position: relative;
+    left: 50px;
+
+    margin: 30px 0;
+
+    font-size: 28px;
+    color: #335576;
+
 
 }
 
@@ -209,7 +235,8 @@ footer img {
  
 .contact__social {
     position: relative;
-    left: 25px;
+    left: 4rem;
+    margin: 0.75rem;
 }
 
 .contact__image {
